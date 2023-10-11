@@ -24,7 +24,7 @@ namespace WordCombiner.Application.Calculation
                     string combination = list.ElementAt(i) + list.ElementAt(j);
 
                     // Check if the combination forms a valid word
-                    if (combination.Length == request.CombinationLength && !list.Contains(combination) && i != j)
+                    if (combination.Length == request.CombinationLength && !output.Contains($"{list.ElementAt(i)}+{list.ElementAt(j)}={combination}") && i != j)
                     {
                         output.Add($"{list.ElementAt(i)}+{list.ElementAt(j)}={combination}");
                     }

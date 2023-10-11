@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33927.210
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCombiner.Application", "WordCombiner.Application\WordCombiner.Application.csproj", "{0FA5093E-EB19-4721-9562-DA9846D8987D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCombiner.Application", "WordCombiner.Application\WordCombiner.Application.csproj", "{0FA5093E-EB19-4721-9562-DA9846D8987D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCombiner.Api", "WordCombiner.Api\WordCombiner.Api.csproj", "{1179BDE0-FCD2-4386-9D8C-2224641D61A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCombiner.Api", "WordCombiner.Api\WordCombiner.Api.csproj", "{1179BDE0-FCD2-4386-9D8C-2224641D61A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCombiner.Console", "WordCombiner.Console\WordCombiner.Console.csproj", "{7596D2BE-B57B-42C3-A9C2-7DD96265E1A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCombiner.UnitTests", "Wordcombiner.UnitTests\WordCombiner.UnitTests.csproj", "{3EB3DCE8-D7CF-4BED-8658-414A1197DEF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCombiner.UnitTests", "Wordcombiner.UnitTests\WordCombiner.UnitTests.csproj", "{3EB3DCE8-D7CF-4BED-8658-414A1197DEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCombiner.Benchmarks", "WordCombiner.Benchmarks\WordCombiner.Benchmarks.csproj", "{7540D831-A7CA-47A3-B690-CF7575BA5B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3EB3DCE8-D7CF-4BED-8658-414A1197DEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB3DCE8-D7CF-4BED-8658-414A1197DEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB3DCE8-D7CF-4BED-8658-414A1197DEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7540D831-A7CA-47A3-B690-CF7575BA5B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7540D831-A7CA-47A3-B690-CF7575BA5B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7540D831-A7CA-47A3-B690-CF7575BA5B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7540D831-A7CA-47A3-B690-CF7575BA5B23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
